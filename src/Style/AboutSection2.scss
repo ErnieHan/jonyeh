@@ -5,5 +5,11 @@
   div {
     width: calc(100% / 3);
     margin: 0 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

@@ -15,10 +15,22 @@ class Header extends React.Component {
         <div className="header-r">
           <ul>
             <Link to={"/"}>
-              <li>about</li>
+              <li
+                style={{
+                  color: window.location.hash === "#/" ? "#60a3bc" : "black"
+                }}
+              >
+                about
+              </li>
             </Link>
             <Link to={"work"}>
-              <li>work</li>
+              <li
+                style={{
+                  color: window.location.hash === "#/work" ? "#60a3bc" : "black"
+                }}
+              >
+                work
+              </li>
             </Link>
           </ul>
         </div>

@@ -16,7 +16,8 @@
 .about-section-3r {
   width: 80%;
   padding: 0 15px;
-  font-size: 20px;
+  line-height: 2;
+  text-align: justify;
 }
 
 @media screen and (max-width: 991px) {
@@ -26,5 +27,7 @@
   }
   .about-section-3r {
     width: 100%;
+    padding: 0;
+    margin-top: 25px;
   }
 }
