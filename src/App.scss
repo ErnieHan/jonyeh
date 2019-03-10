@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Judson:400,700");
 
 * {
   -webkit-box-sizing: border-box;
@@ -8,7 +9,7 @@
 }
 
 body {
-  font-family: "Montserrat", "Noto Sans TC", sans-serif;
+  font-family: "Judson", "Montserrat", "Noto Sans TC", sans-serif;
   font-size: 16px;
 }
 
@@ -75,6 +76,7 @@ header {
         margin-left: 25px;
         font-weight: 600;
         cursor: pointer;
+        letter-spacing: 1.2px;
       }
     }
   }
@@ -100,3 +102,7 @@ header {
     }
   }
 }
+
+@import "./Style/AboutSection1.scss";
+@import "./Style/AboutSection2.scss";
+@import "./Style/AboutSection3.scss";

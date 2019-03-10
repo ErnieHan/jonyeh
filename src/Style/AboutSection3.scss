@@ -1,0 +1,30 @@
+.about-section-3 {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-section-3l {
+  width: 20%;
+  height: 180px;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+.about-section-3r {
+  width: 80%;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .about-section-3l {
+    width: 35vw;
+    height: 35vw;
+  }
+  .about-section-3r {
+    width: 100%;
+  }
+}
