@@ -109,6 +109,20 @@ header {
   }
 }
 
+.loading-content {
+  width: 103vw;
+  height: 103vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
 @import "./Style/AboutSection1.scss";
 @import "./Style/AboutSection2.scss";
 @import "./Style/AboutSection3.scss";
