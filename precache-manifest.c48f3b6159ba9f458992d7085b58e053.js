@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/jonyeh/static/media/slider1.b2f0763e.jpg"
   },
   {
-    "revision": "9db29772cb3668ff2028",
-    "url": "/jonyeh/static/css/main.86fae339.chunk.css"
+    "revision": "f8242d7204666140ca9e",
+    "url": "/jonyeh/static/css/main.c8e881a7.chunk.css"
   },
   {
     "revision": "51558faf62a26c2bccab",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/jonyeh/static/media/slider0.c2196972.jpg"
   },
   {
-    "revision": "9db29772cb3668ff2028",
-    "url": "/jonyeh/static/js/main.09d25a27.chunk.js"
+    "revision": "f8242d7204666140ca9e",
+    "url": "/jonyeh/static/js/main.80b02e7a.chunk.js"
   },
   {
     "revision": "d9128738e1236d1a2a1f3fa99762dc01",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/jonyeh/static/media/ss2.b80d929f.jpg"
   },
   {
-    "revision": "edb2b9cf51d4863506522280f0153dc7",
+    "revision": "09b896e9d1b05fe14f74292154a0faf4",
     "url": "/jonyeh/index.html"
   }
 ];
