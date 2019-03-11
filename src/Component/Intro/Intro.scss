@@ -1,0 +1,44 @@
+.Intro {
+  display: flex;
+  margin-top: 25px;
+}
+.intro-l {
+  width: 20%;
+  height: 180px;
+  background: #f4f4f4;
+}
+.intro-r {
+  width: 80%;
+  padding: 0 15px;
+  margin-top: -10px;
+  h2 {
+    border-bottom: 1px solid gray;
+  }
+  p {
+    line-height: 2;
+    text-align: justify;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .intro-l {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Intro {
+    flex-wrap: wrap;
+  }
+  .intro-l {
+    width: 35vw;
+    height: 35vw;
+  }
+  .intro-r {
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,49 @@
+.project-content {
+  margin-top: 50px;
+  display: flex;
+}
+.pc-l {
+  width: 20%;
+  height: 180px;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: "Montserrat";
+}
+.pc-r {
+  width: 80%;
+  padding: 0 15px;
+  margin-top: -10px;
+  h2 {
+    border-bottom: 1px solid gray;
+  }
+  p {
+    line-height: 2;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pc-l {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-content {
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .pc-l {
+    width: 35vw;
+    height: 35vw;
+  }
+  .pc-r {
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+}

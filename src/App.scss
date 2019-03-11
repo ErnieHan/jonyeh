@@ -10,7 +10,7 @@
 
 body {
   font-family: "Judson", "Montserrat", "Noto Sans TC", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 991px) {
@@ -27,6 +27,9 @@ a {
     outline: 0;
     background: transparent;
   }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 h1,
@@ -36,7 +39,8 @@ h4,
 h5,
 h6,
 ul,
-li {
+li,
+p {
   margin: 0;
   padding: 0;
 }
@@ -126,3 +130,8 @@ header {
 @import "./Style/AboutSection1.scss";
 @import "./Style/AboutSection2.scss";
 @import "./Style/AboutSection3.scss";
+@import "../src/Component/ProjectTitle/ProjectTitle.scss";
+@import "../src/Component/Intro/Intro.scss";
+@import "../src/Component/ProjectImgOne/ProjectImgOne.scss";
+@import "../src/Component/ProjectContent/ProjectContent.scss";
+@import "../src/Component/ProjectImgTwo/ProjectImgTwo.scss";

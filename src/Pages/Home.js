@@ -8,9 +8,9 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <AboutSlider />
-        <AboutSection1 />
         <AboutSection2 />
+        <AboutSection1 />
+        <AboutSlider />
         <AboutSection3 />
       </div>
     );
