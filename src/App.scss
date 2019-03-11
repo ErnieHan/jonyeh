@@ -104,12 +104,22 @@ header {
     height: 360px;
   }
 }
+.about-slider2 {
+  display: none;
+}
 
 @media screen and (max-width: 991px) {
   .about-slider {
     div {
       height: auto;
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-slider2 {
+    margin-top: 15px;
+    display: block;
   }
 }
 
