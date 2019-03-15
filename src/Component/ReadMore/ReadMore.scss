@@ -1,0 +1,10 @@
+.readmore {
+  text-align: right;
+  a {
+    text-decoration: underline !important;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
