@@ -5,7 +5,7 @@ const ReadMore = props => {
   return (
     <div className="readmore">
       <Link to={`/work${props.page}`}>
-        <a>Read More >> </a>
+        <span>Read More >> </span>
       </Link>
     </div>
   );
