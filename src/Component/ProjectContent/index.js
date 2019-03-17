@@ -10,7 +10,7 @@ class ProjectContent extends React.Component {
         <div className="pc-r">
           <h2>{props.title}</h2>
           {props.children}
-          <ReadMore />
+          <ReadMore page={props.page} />
         </div>
       </div>
     );

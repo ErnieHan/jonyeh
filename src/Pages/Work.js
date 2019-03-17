@@ -12,7 +12,11 @@ class Work extends React.Component {
         <ProjectTitle>Project Title</ProjectTitle>
         <Intro />
         <ProjectImgOne />
-        <ProjectContent number="#01" title="01-Title">
+        <ProjectContent
+          number="#01"
+          title="Psychological tactics. Color"
+          page="01"
+        >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -24,7 +28,11 @@ class Work extends React.Component {
           </p>
         </ProjectContent>
         <ProjectImgTwo />
-        <ProjectContent number="#02" title="02-Title">
+        <ProjectContent
+          number="#02"
+          title="Psychological Tactic. Shape"
+          page="02"
+        >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -36,7 +44,11 @@ class Work extends React.Component {
           </p>
         </ProjectContent>
         <ProjectImgOne />
-        <ProjectContent number="#03" title="03-Title">
+        <ProjectContent
+          number="#03"
+          title="Psychological Tactic. Sponsorship & Influencer"
+          page="03"
+        >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -47,7 +59,11 @@ class Work extends React.Component {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </ProjectContent>
-        <ProjectContent number="#04" title="04-Title">
+        <ProjectContent
+          number="#04"
+          title="Psychological Tactic. Incentivisation"
+          page="04"
+        >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

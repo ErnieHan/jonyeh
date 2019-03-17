@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ReadMore = () => {
+const ReadMore = props => {
   return (
     <div className="readmore">
-      <Link to="work/01">
+      <Link to={`/work${props.page}`}>
         <a>Read More >> </a>
       </Link>
     </div>
