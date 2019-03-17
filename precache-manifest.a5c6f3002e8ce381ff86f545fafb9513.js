@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/jonyeh/static/media/slider3.1f25426d.jpg"
   },
   {
-    "revision": "fa8bb8177bbf88bc8bff1580874faf73",
+    "revision": "104e5ba70d793d4db261951543e762ea",
     "url": "/jonyeh/index.html"
   }
 ];
