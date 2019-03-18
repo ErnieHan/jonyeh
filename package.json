@@ -2,7 +2,7 @@
   "name": "jonyeh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://erniehan.github.io/jonyeh/",
+  "homepage": "https://erniehan.github.io/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
