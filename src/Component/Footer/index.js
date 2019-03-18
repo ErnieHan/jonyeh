@@ -4,8 +4,13 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <a href="mailto:Jonathanyeh2015@gmail.com">Jonathanyeh2015@gmail.com</a>
+        <a href="mailto:Jonathanyeh2015@gmail.com" className="jon-email-dk">
+          Jonathanyeh2015@gmail.com
+        </a>
         <span style={{ marginLeft: "5px" }}>+1 (714) 686-7735</span>
+        <a href="mailto:Jonathanyeh2015@gmail.com" className="jon-email-mb">
+          <i className="fas fa-envelope" />
+        </a>
         <a href="https://www.facebook.com/profile.php?id=100000231678778">
           <i className="fab fa-facebook-square" />
         </a>

@@ -13,3 +13,16 @@ footer {
     margin-left: 15px;
   }
 }
+
+.jon-email-mb {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .jon-email-dk {
+    display: none;
+  }
+  .jon-email-mb {
+    display: inline;
+  }
+}
