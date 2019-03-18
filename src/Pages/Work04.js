@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectTitle from "../Component/ProjectTitle";
-import ProjectImgTwo from "../Component/ProjectImgTwo";
 import ProjectImgOne from "../Component/ProjectImgOne";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 class Work04 extends React.Component {
   componentDidMount = () => {
@@ -12,6 +12,14 @@ class Work04 extends React.Component {
   render() {
     return (
       <div className="work-pages">
+      <MetaTags>
+          <title>Psychological Tactic. Reward | Johnathan Yeh Website</title>
+          <meta name="description" content="Incentivisation is the psychological tactic widely used by marketers
+            to promote their products and services effectively. Hence, various
+            rewards and incentives are used to make customers take an action
+            (Leary). Many companies offer free products, guides, and other
+            freebies to establish contact with their target audience." />
+        </MetaTags>
         <ProjectTitle>Psychological Tactic. Reward</ProjectTitle>
         <ProjectImgOne img="incentive.jpg" />
         <div>

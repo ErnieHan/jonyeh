@@ -4,11 +4,16 @@ import Intro from "../Component/Intro";
 import ProjectImgOne from "../Component/ProjectImgOne";
 import ProjectContent from "../Component/ProjectContent";
 import ProjectImgTwo from "../Component/ProjectImgTwo";
+import MetaTags from "react-meta-tags";
 
 class Work extends React.Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>Work | Johnathan Yeh Website</title>
+          <meta name="description" content="To help marketing remain effective, a number of psychological advances, contributing to the development of numerous marketing tactics, have been applied. Using psychological knowledge, marketers can understand consumers’ behavior, their needs, desires, and preferences. Such an awareness, can help them create an appropriate product and distribute it effectively." />
+        </MetaTags>
         <ProjectTitle>Psychological tactics in marketing</ProjectTitle>
         <Intro />
         <ProjectImgOne img="color.jpg" />

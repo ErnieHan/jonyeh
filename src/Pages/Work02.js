@@ -3,6 +3,7 @@ import ProjectTitle from "../Component/ProjectTitle";
 import ProjectImgTwo from "../Component/ProjectImgTwo";
 import ProjectImgOne from "../Component/ProjectImgOne";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 class Work02 extends React.Component {
   componentDidMount = () => {
@@ -12,6 +13,16 @@ class Work02 extends React.Component {
   render() {
     return (
       <div className="work-pages">
+      <MetaTags>
+          <title>Psychological Tactic. Shape | Johnathan Yeh Website</title>
+          <meta name="description" content="Similarly to colors, many good marketers use the psychological
+            tactic of shape. They are aware of various messages hidden in shapes
+            and wisely apply these (Pahwa). Therefore, the most popular shapes
+            that can be observed almost everywhere are four-sided structures.
+            Most of their time people spend in a four-walled room. Obviously,
+            the straight lines of four-sided structures have already formed
+            their meanings in people’s minds." />
+        </MetaTags>
         <ProjectTitle>Psychological Tactic. Shape</ProjectTitle>
         <ProjectImgTwo img01="shape01.jpg" img02="shape02.jpg" />
         <div>

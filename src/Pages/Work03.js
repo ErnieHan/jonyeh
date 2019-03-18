@@ -3,6 +3,7 @@ import ProjectTitle from "../Component/ProjectTitle";
 import ProjectImgTwo from "../Component/ProjectImgTwo";
 import ProjectImgOne from "../Component/ProjectImgOne";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 class Work03 extends React.Component {
   componentDidMount = () => {
@@ -12,6 +13,15 @@ class Work03 extends React.Component {
   render() {
     return (
       <div className="work-pages">
+      <MetaTags>
+          <title>Psychological Tactic. Sponsorship & Influencer | Johnathan Yeh Website</title>
+          <meta name="description" content="Sponsorship is a psychological tactic considering a certain brand to
+            provide money in exchange for being represented in an event, podcast
+            or webinar. Many brands aim to increase their credibility by
+            applying this tactic. For example, Coca-Cola is always sponsoring
+            various events (Hussain). Therefore, the company aims to generate a
+            positive idea of their products among its consumers." />
+        </MetaTags>
         <ProjectTitle>
           Psychological Tactic. Sponsorship & Influencer
         </ProjectTitle>
