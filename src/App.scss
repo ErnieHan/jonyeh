@@ -136,6 +136,20 @@ header {
   align-items: center;
   font-size: 30px;
 }
+.work-pages {
+  p {
+    line-height: 2;
+    margin-top: 25px;
+  }
+}
+.work-page-changepage {
+  display: flex;
+  justify-content: flex-end;
+}
+.work-page-changepage2 {
+  display: flex;
+  justify-content: space-between;
+}
 
 @import "./Style/AboutSection1.scss";
 @import "./Style/AboutSection2.scss";
@@ -146,3 +160,4 @@ header {
 @import "../src/Component/ProjectContent/ProjectContent.scss";
 @import "../src/Component/ProjectImgTwo/ProjectImgTwo.scss";
 @import "../src/Component/ReadMore/ReadMore.scss";
+@import "../src/Component/Footer/Footer.scss";

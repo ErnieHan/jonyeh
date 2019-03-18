@@ -5,22 +5,28 @@ class AboutSection1 extends React.Component {
     return (
       <div className="about-section-1">
         <div className="about-scetion-l">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am an international business major and accounting minor student, I
+          have interacted with various pieces of information that relate to
+          finance, customers, communication and business. The knowledge I have
+          gained from this academic milieu has even assured me of my ability to
+          excel in any business endeavor. As a young person, I used to accompany
+          my parents to banks and other business places such as malls. During
+          these times, I envied the way people here operated their business and
+          the manner in which bank employees organized themselves. In fact, the
+          bank setup was quite admirable.
           <br />
           <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          As a young person, I used to accompany my parents to banks and other
+          business places such as malls. During these times, I envied the way
+          people here operated their business and the manner in which bank
+          employees organized themselves. In fact, the bank setup was quite
+          admirable.
+          <br />
+          <br />
+          <div style={{ fontWeight: "bold", letterSpacing: "1px" }}>
+            Corrently UCSD Student <br /> Major : International Businese <br />
+            Minor : Accounting
+          </div>
         </div>
         <div className="about-scetion-r">#me</div>
       </div>

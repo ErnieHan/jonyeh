@@ -8,13 +8,20 @@ class Intro extends React.Component {
         <div className="intro-r">
           <h2>Intro</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            To help marketing remain effective, a number of psychological
+            advances, contributing to the development of numerous marketing
+            tactics, have been applied. Using psychological knowledge, marketers
+            can understand consumers’ behavior, their needs, desires, and
+            preferences. Such an awareness, can help them create an appropriate
+            product and distribute it effectively. Marketing psychology often
+            studies the motives of their consumers to identify what people want
+            to see on the market (Clare). Hence, they use different
+            psychological tactics to affect the customer to purchase a certain
+            product. For instance, it is always not difficult to remember
+            numbers shown in advertisements (Clare). It can be explained that
+            marketers use a special number pattern for easier remembering of
+            these numbers. Nevertheless, human psychology is far from being
+            fully studied and marketing psychology has much more to offer.
           </p>
         </div>
       </div>
