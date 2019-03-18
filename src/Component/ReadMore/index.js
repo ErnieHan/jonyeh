@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ReadMore = () => {
   return (
     <div className="readmore">
-      <Link to="work/01">
+      <Link to="/work01">
         <a>Read More >> </a>
       </Link>
     </div>
