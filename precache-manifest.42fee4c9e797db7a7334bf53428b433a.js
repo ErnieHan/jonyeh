@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/sponsorship.ae10ec5f.jpg"
   },
   {
-    "revision": "8e0f203b34a6b1f49b6a5ca1da8c008c",
+    "revision": "3d67eb6c90d31c70597810a9ec54a32b",
     "url": "/index.html"
   }
 ];
