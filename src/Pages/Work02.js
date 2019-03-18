@@ -13,7 +13,7 @@ class Work02 extends React.Component {
     return (
       <div className="work-pages">
         <ProjectTitle>Psychological Tactic. Shape</ProjectTitle>
-        <ProjectImgTwo />
+        <ProjectImgTwo img01="shape01.jpg" img02="shape02.jpg" />
         <div>
           <p>
             Similarly to colors, many good marketers use the psychological
@@ -30,7 +30,7 @@ class Work02 extends React.Component {
             (Pahwa). When placed on its base, they depict stability, thus in
             case they are tilted, instability and tension are depicted.
           </p>
-          <ProjectImgOne />
+          <ProjectImgOne img="shape03.jpg" />
           <p>
             One more figure used in marketing psychology is a circle. Various
             eternal and spiritual things are usually associated with the circle.

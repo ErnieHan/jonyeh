@@ -12,8 +12,8 @@ class Work04 extends React.Component {
   render() {
     return (
       <div className="work-pages">
-        <ProjectTitle>Psychological Tactic. Incentivisation</ProjectTitle>
-        <ProjectImgTwo />
+        <ProjectTitle>Psychological Tactic. Reward</ProjectTitle>
+        <ProjectImgOne img="incentive.jpg" />
         <div>
           <p>
             Incentivisation is the psychological tactic widely used by marketers
@@ -29,7 +29,7 @@ class Work04 extends React.Component {
             understand people’s nature of greediness and use this for promoting
             their business.
           </p>
-          <ProjectImgOne />
+          <ProjectImgOne img="reward.jpg" />
           <p>
             Gamification remains a psychological tactic that considers game
             application into content to engage one’s target audience. It can be

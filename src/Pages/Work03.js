@@ -15,7 +15,7 @@ class Work03 extends React.Component {
         <ProjectTitle>
           Psychological Tactic. Sponsorship & Influencer
         </ProjectTitle>
-        <ProjectImgTwo />
+        <ProjectImgOne img="sponsorship.jpg" />
         <div>
           <p>
             Sponsorship is a psychological tactic considering a certain brand to
@@ -33,7 +33,8 @@ class Work03 extends React.Component {
             psychological tactic of sponsorship remains effective due to the
             fact that it impacts consumers.
           </p>
-          <ProjectImgOne />
+
+          <ProjectImgTwo img01="spon01.jpg" img02="spon02.jpg" />
           <p>
             Endorsement- Influencer is another psychological tactic that
             considers someone famous to provide a positive review in regard to a

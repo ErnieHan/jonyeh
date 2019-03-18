@@ -13,7 +13,7 @@ class Work01 extends React.Component {
     return (
       <div className="work-pages">
         <ProjectTitle>Psychological tactics. Color</ProjectTitle>
-        <ProjectImgTwo />
+        <ProjectImgOne img="color.jpg" />
         <div>
           <p>
             One of the most common psychological tactics in marketing is the
@@ -33,6 +33,7 @@ class Work01 extends React.Component {
             that refers to health. Everybody wants to remain healthy, and,
             obviously, in case of the disease go to such an institution.
           </p>
+          <ProjectImgTwo img01="color01.jpg" img02="color02.jpg" />
           <p>
             The orange color is widely used by numerous advertising campaigns.
             It is associated with warmth and sun, fun (Ciotti). It is also
@@ -48,7 +49,7 @@ class Work01 extends React.Component {
             use this color for the promotion of their products and services. In
             this case, blue refers to a feeling of reliability.
           </p>
-          <ProjectImgOne />
+
           <p>
             The purple color refers to royalty, wisdom, creativity, and magic.
             It stands between the color psychologies of red and blue colors.

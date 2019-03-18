@@ -11,7 +11,7 @@ class Work extends React.Component {
       <div>
         <ProjectTitle>Psychological tactics in marketing</ProjectTitle>
         <Intro />
-        <ProjectImgOne />
+        <ProjectImgOne img="color.jpg" />
         <ProjectContent
           number="#01"
           title="Psychological tactics. Color"
@@ -29,7 +29,7 @@ class Work extends React.Component {
             (Ciotti)...
           </p>
         </ProjectContent>
-        <ProjectImgTwo />
+        <ProjectImgTwo img01="shape01.jpg" img02="shape02.jpg" />
         <ProjectContent
           number="#02"
           title="Psychological Tactic. Shape"
@@ -46,7 +46,7 @@ class Work extends React.Component {
             with trust, stability, honesty, rationality, order, and security...
           </p>
         </ProjectContent>
-        <ProjectImgOne />
+        <ProjectImgOne img="sponsorship.jpg" />
         <ProjectContent
           number="#03"
           title="Psychological Tactic. Sponsorship & Influencer"
@@ -63,9 +63,10 @@ class Work extends React.Component {
             believes that in such a way it can influence consumers’ opinions...
           </p>
         </ProjectContent>
+        <ProjectImgOne img="incentive.jpg" />
         <ProjectContent
           number="#04"
-          title="Psychological Tactic. Incentivisation"
+          title="Psychological Tactic. Reward"
           page="04"
         >
           <p>
