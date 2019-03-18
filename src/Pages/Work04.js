@@ -6,7 +6,6 @@ import MetaTags from "react-meta-tags";
 
 class Work04 extends React.Component {
   componentDidMount = () => {
-    console.log(window.pageYOffset);
     window.scrollTo(0, 0);
   };
   render() {

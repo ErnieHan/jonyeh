@@ -5,7 +5,6 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        {console.log(process.env.PUBLIC_URL)}
         <div className="header-l">
           <h2>
             Johnathan
@@ -18,7 +17,7 @@ class Header extends React.Component {
             <Link to="/" href="/">
               <li
                 style={{
-                  color: window.location.hash === "#/" ? "#60a3bc" : "black"
+                  color: window.location.pathname === "/" ? "#60a3bc" : "black"
                 }}
               >
                 about
@@ -27,7 +26,7 @@ class Header extends React.Component {
             <Link to="work">
               <li
                 style={{
-                  color: window.location.hash.includes("work")
+                  color: window.location.pathname.includes("work")
                     ? "#60a3bc"
                     : "black"
                 }}

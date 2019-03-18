@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +38,20 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "reactSnap": {
+    "inlineCss": true,
+    "headless": false,
+    "puppeteerArgs": [
+      "--proxy-server=192.168.203.129:3128"
+    ],
+    "cacheAjaxRequests": true,
+    "puppeteer": {
+      "cache": false
+    },
+    "include": [
+      "/",
+      "/work"
+    ]
+  }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Layout from "./Component/Layout";
 import "./App.scss";
 import Header from "./Component/Header";
@@ -29,7 +29,7 @@ class App extends Component {
   };
   render() {
     return (
-      <HashRouter>
+      <Router>
         <Layout>
           <Header />
           {this.state.isLoading && <Loading />}
@@ -44,7 +44,7 @@ class App extends Component {
           </Switch>
           <Footer />
         </Layout>
-      </HashRouter>
+      </Router>
     );
   }
 }
