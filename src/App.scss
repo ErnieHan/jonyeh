@@ -108,6 +108,12 @@ header {
 .about-slider2 {
   display: none;
 }
+.about-scetion-l::first-letter {
+  font-size: 400%;
+  float: left;
+  line-height: 0.8em;
+  margin-right: 10px;
+}
 
 @media screen and (max-width: 991px) {
   .about-slider {
