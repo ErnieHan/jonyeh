@@ -7,20 +7,22 @@ import MetaTags from "react-meta-tags";
 
 class Work01 extends React.Component {
   componentDidMount = () => {
-    
     window.scrollTo(0, 0);
   };
   render() {
     return (
       <div className="work-pages">
-      <MetaTags>
+        <MetaTags>
           <title>Psychological tactics. Color | Johnathan Yeh Website</title>
-          <meta name="description" content="One of the most common psychological tactics in marketing is the
+          <meta
+            name="description"
+            content="One of the most common psychological tactics in marketing is the
             application of color, which can be explained by the fact that
             customers’ personal preferences and context are often associated
             with particular colors and the effect these colors have om them. The
             yellow color, which is used for the promotion of products that evoke
-            pleasure, is associated with the feelings of optimism and happiness." />
+            pleasure, is associated with the feelings of optimism and happiness."
+          />
         </MetaTags>
         <ProjectTitle>Psychological tactics. Color</ProjectTitle>
         <ProjectImgOne img="color.jpg" />

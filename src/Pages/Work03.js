@@ -12,14 +12,20 @@ class Work03 extends React.Component {
   render() {
     return (
       <div className="work-pages">
-      <MetaTags>
-          <title>Psychological Tactic. Sponsorship & Influencer | Johnathan Yeh Website</title>
-          <meta name="description" content="Sponsorship is a psychological tactic considering a certain brand to
+        <MetaTags>
+          <title>
+            Psychological Tactic. Sponsorship & Influencer | Johnathan Yeh
+            Website
+          </title>
+          <meta
+            name="description"
+            content="Sponsorship is a psychological tactic considering a certain brand to
             provide money in exchange for being represented in an event, podcast
             or webinar. Many brands aim to increase their credibility by
             applying this tactic. For example, Coca-Cola is always sponsoring
             various events (Hussain). Therefore, the company aims to generate a
-            positive idea of their products among its consumers." />
+            positive idea of their products among its consumers."
+          />
         </MetaTags>
         <ProjectTitle>
           Psychological Tactic. Sponsorship & Influencer
