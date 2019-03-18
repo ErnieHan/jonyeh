@@ -121,6 +121,17 @@ header {
     margin-top: 15px;
     display: block;
   }
+  .header-l {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .header-r {
+    margin-top: 35px !important;
+  }
+  h2 {
+    font-size: 28px;
+  }
 }
 
 .loading-content {

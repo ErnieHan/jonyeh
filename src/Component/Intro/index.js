@@ -1,11 +1,17 @@
 import React from "react";
 
 class Intro extends React.Component {
+  state = {
+    openIntro: false
+  };
   render() {
     return (
       <div className="Intro">
         <div className="intro-l">{""}</div>
-        <div className="intro-r">
+        <div
+          className="intro-r"
+          style={{ maxHeight: this.state.openIntro ? "1000px" : "390px" }}
+        >
           <h2>Intro</h2>
           <p>
             To help marketing remain effective, a number of psychological
@@ -23,6 +29,21 @@ class Intro extends React.Component {
             these numbers. Nevertheless, human psychology is far from being
             fully studied and marketing psychology has much more to offer.
           </p>
+        </div>
+        <div
+          style={{ width: "100%", textAlign: "right" }}
+          className="intro-btn-div"
+        >
+          <button
+            className="intro-btn"
+            onClick={() =>
+              this.setState({
+                openIntro: !this.state.openIntro
+              })
+            }
+          >
+            more
+          </button>
         </div>
       </div>
     );
