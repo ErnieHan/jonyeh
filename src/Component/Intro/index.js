@@ -42,7 +42,11 @@ class Intro extends React.Component {
               })
             }
           >
-            more
+            {this.state.openIntro ? (
+              <i class="fas fa-angle-double-up" />
+            ) : (
+              <i className="fas fa-angle-double-down" />
+            )}
           </button>
         </div>
       </div>
